@@ -8,7 +8,7 @@
 }
 
 .navbar-logo {
-  color: #123123;
+  color: #123;
   font-size: 32px;
   cursor: pointer;
 }
@@ -23,7 +23,7 @@
 
 .nav-links {
   text-decoration: none;
-  color: #123123;
+  color: #123;
   font-size: 20px;
   font-weight: 600;
   padding: 10px 15px;
