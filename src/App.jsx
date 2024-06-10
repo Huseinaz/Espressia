@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -9,15 +9,15 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Service />} />
+          <Route path="/services" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
