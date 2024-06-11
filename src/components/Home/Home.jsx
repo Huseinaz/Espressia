@@ -1,9 +1,16 @@
 import React from 'react'
+import Hero from '../Hero/Hero';
+import heroImage from '../../assets/hero.jpeg';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is Home</h1>
+            <Hero
+                cName = 'hero'
+                heroImage = {heroImage}
+                title = 'Welcome to our site'
+                paragraph = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+            />
         </div>
     )
 }
