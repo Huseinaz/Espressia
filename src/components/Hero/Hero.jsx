@@ -14,8 +14,8 @@ const Hero = (props) => {
                 <p className='hero-paragraph'>
                     {props.paragraph}
                 </p>
-                <a href='/' className='hero-button'>
-                    Learn More
+                <a href={props.url} className={props.btnClass}>
+                    {props.buttonText}
                 </a>
             </div>
         </div>
