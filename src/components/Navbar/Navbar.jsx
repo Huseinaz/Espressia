@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <nav className="NavbarItems">
-            <h1 className="navbar-logo">HAZ</h1>
+            <h1 className="navbar-logo">Espressia</h1>
 
             <div className="menu-icons" onClick={handleSetClicked}>
                 <i className={clicked ? "fas fa-times" : "fas fa-bars"} />
