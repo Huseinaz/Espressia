@@ -1,10 +1,15 @@
 import "./Navbar.css";
 import { MenuItems } from "./MenuItems";
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false);
+    const navigate = useNavigate();
+
+    const handleLogoClick = () => {
+        navigate('/');
+    }
 
     const handleSetClicked = () => {
         setClicked(!clicked);
@@ -12,7 +17,7 @@ const Navbar = () => {
 
     return (
         <nav className="NavbarItems">
-            <h1 className="navbar-logo">Espressia</h1>
+            <h1 className="navbar-logo" onClick={handleLogoClick}>Espressia</h1>
 
             <div className="menu-icons" onClick={handleSetClicked}>
                 <i className={clicked ? "fas fa-times" : "fas fa-bars"} />
