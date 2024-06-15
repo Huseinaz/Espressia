@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../Hero/Hero';
-import heroImage from '../../assets/hero.jpeg';
+import heroImage from '../../assets/home-hero.jpeg';
 
 const Home = () => {
     return (
@@ -8,7 +8,7 @@ const Home = () => {
             <Hero
                 cName='hero'
                 heroImage={heroImage}
-                title='Welcome to our site'
+                title='Welcome to Espressia'
                 paragraph='Lorem ipsum dolor sit amet consectetur adipisicing elit.'
                 url='/'
                 btnClass='show'
