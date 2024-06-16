@@ -1,9 +1,16 @@
 import React from 'react'
+import Hero from '../Hero/Hero';
+import heroImage from '../../assets/about-hero.jpg';
 
 const About = () => {
     return (
         <div>
-            <h1>This is About</h1>
+            <Hero
+                cName='hero-mid'
+                heroImage={heroImage}
+                title='About'
+                btnClass='hide'
+            />
         </div>
     )
 }
