@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.hero-mid h1 {
+.hero-mid .hero-text .hero-heading {
   padding-top: 64px !important;
 }
 
