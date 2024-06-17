@@ -3,10 +3,8 @@ import './Hero.css';
 
 const Hero = (props) => {
     return (
-        <div>
-            <div className={props.cName}>
-                <img alt='Hero' src={props.heroImage} />
-            </div>
+        <div className={props.cName}>
+            <img alt='Hero' src={props.heroImage} />
             <div className='hero-text'>
                 <h1 className='hero-heading'>
                     {props.title}
