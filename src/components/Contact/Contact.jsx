@@ -1,9 +1,16 @@
 import React from 'react'
+import Hero from '../Hero/Hero';
+import heroImage from '../../assets/service-hero.jpg';
 
 const Contact = () => {
     return (
         <div>
-            <h1>This is Contact</h1>
+            <Hero
+                cName='hero-mid'
+                heroImage={heroImage}
+                title='Contact'
+                btnClass='hide'
+            />
         </div>
     )
 }
