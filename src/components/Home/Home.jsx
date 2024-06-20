@@ -9,7 +9,7 @@ const Home = () => {
                 cName='hero'
                 heroImage={heroImage}
                 title='Welcome to Espressia'
-                paragraph='Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                paragraph='Start your coffee journey with Espressia today!'
                 url='/'
                 btnClass='show'
                 buttonText='Learn More'
