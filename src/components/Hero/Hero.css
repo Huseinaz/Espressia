@@ -5,6 +5,17 @@
   overflow: hidden;
 }
 
+.hero::after, .hero-mid::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
 .hero-mid {
   width: 100%;
   height: 80vh;
@@ -19,6 +30,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: 0;
 }
 
 .hero-text {
@@ -27,6 +39,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  z-index: 2;
 }
 
 .hero-text h1 {
@@ -49,7 +62,7 @@ img {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #123;
+  color: #352412;
 }
 
 .hero-text .hide {
@@ -57,7 +70,7 @@ img {
 }
 
 .hero-text .show:hover {
-  background: #123;
+  background: #352412;
   color: #fff;
   transition: all 0.2s ease-in-out;
 }
