@@ -1,4 +1,5 @@
 import React from 'react'
+import Discover from './Discover.jsx'
 import Hero from '../Hero/Hero';
 import heroImage from '../../assets/home-hero.jpeg';
 
@@ -14,6 +15,7 @@ const Home = () => {
                 btnClass='show'
                 buttonText='Learn More'
             />
+            <Discover />
         </div>
     )
 }
