@@ -1,0 +1,40 @@
+.discover {
+  margin: 64px 96px;
+}
+
+.discover h1 {
+  font-size: 48px;
+}
+
+.first-dis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 72px;
+}
+
+.dis-text {
+  width: 45%;
+  text-align: start;
+  font-size: 18px;
+}
+
+.dis-text h2 {
+  padding-bottom: 16px;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -1;
+}
+
+.image img {
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.2);
+}
