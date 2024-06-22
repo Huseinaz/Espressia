@@ -1,5 +1,6 @@
 .discover {
   margin: 64px 96px;
+  color: #352412;
 }
 
 .discover h1 {
@@ -23,6 +24,10 @@
   padding-bottom: 16px;
 }
 
+.dis-text span {
+  font-weight: 600;
+}
+
 .image {
   position: relative;
   width: 50%;
@@ -32,9 +37,40 @@
 }
 
 .image img {
-    width: 49%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 5px;
-    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.2);
+  width: 49%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.2);
+}
+
+.image img:nth-child(2) {
+  position: absolute;
+  top: -10%;
+  right: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .discover {
+    margin: 64px 32px;
+  }
+
+  .first-dis {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+
+  .dis-text {
+    width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .image img {
+    height: 250px;
+  }
 }
