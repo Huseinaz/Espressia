@@ -1,4 +1,5 @@
 import React from 'react'
+import './Discover.css'
 
 import Coffee1 from '../../assets/coffee1.jpg'
 import Coffee2 from '../../assets/coffee2.jpg'
