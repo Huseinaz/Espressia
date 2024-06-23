@@ -4,7 +4,7 @@ import './Discover.css';
 class DiscoverData extends Component {
     render() {
         return (
-            <div className='first-dis'>
+            <div className={this.props.className}>
                 <div className='dis-text'>
                     <h2>{this.props.heading}</h2>
                     <p dangerouslySetInnerHTML={{ __html: this.props.text }}></p>
