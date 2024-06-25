@@ -10,7 +10,7 @@ import Coffee4 from '../../assets/coffee4.jpg';
 const Discover = () => {
     return (
         <div className='discover'>
-            <h1>Discover our premium coffee beans.</h1>
+            <h1>Discover our premium coffee</h1>
             <p>At Espressia, we are passionate about providing you with the finest coffee experience.</p>
 
             <DiscoverData
