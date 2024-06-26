@@ -7,14 +7,14 @@
   font-size: 48px;
 }
 
-.itemcard {
+.item-card {
   margin-top: 48px;
   display: flex;
   justify-content: space-between;
 }
 
 .i-card {
-  width: 32%;
+  width: 30%;
   text-align: start;
   box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.25);
   border-radius: 7px;
@@ -42,4 +42,19 @@
 
 .i-image:hover img {
   transform: scale(1.3);
+}
+
+@media screen and (max-width: 850px) {
+  .item {
+    margin: 64px 32px;
+  }
+
+  .item-card {
+    flex-direction: column;
+  }
+
+  .i-card {
+    width: 100%;
+    margin-bottom: 24px;
+  }
 }
