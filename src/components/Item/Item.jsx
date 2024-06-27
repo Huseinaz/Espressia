@@ -5,6 +5,7 @@ import ItemData from './ItemData';
 import Item1 from '../../assets/CaramelMacchiato.jpg'
 import Item2 from '../../assets/Latte.jpg'
 import Item3 from '../../assets/Mocha.png'
+import Footer from '../../Footer/Footer';
 
 const Item = () => {
   return (
@@ -29,6 +30,8 @@ const Item = () => {
                 text="Indulge in the chocolatey goodness of our Mocha Delight. This decadent drink features our bold espresso, steamed milk, and rich chocolate syrup, topped with a generous layer of whipped cream. It's a treat for any chocolate and coffee lover."
             />
         </div>
+
+        <Footer />
     </div>
   )
 }
