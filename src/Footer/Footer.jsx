@@ -26,7 +26,13 @@ const Footer = () => {
         </div>
 
         <div className='bottom'>
-
+            <div>
+                <h4>Project</h4>
+                <a href='/'>Changelog</a>
+                <a href='/'>Status</a>
+                <a href='/'>License</a>
+                <a href='/'>All Versions</a>
+            </div>
         </div>
     </div>
   )
