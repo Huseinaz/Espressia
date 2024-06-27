@@ -17,3 +17,20 @@
   font-size: 32px;
   margin-left: 16px;
 }
+
+.top i:hover {
+  color: #b7b7b7;
+}
+
+.bottom {
+  padding-top: 32px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+}
