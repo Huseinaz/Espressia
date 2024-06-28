@@ -29,6 +29,8 @@
 .form-container button {
   display: inline;
   padding: 16px 32px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
   border-radius: 5px;
   color: #352412;
   background-color: #fff;
@@ -37,4 +39,15 @@
 .form-container button:hover {
   background-color: #352412;
   color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .form-container {
+    margin: 64px 32px;
+  }
+
+  .form-container form {
+    padding-top: 32px;
+    width: 90%;
+  }
 }
