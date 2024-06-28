@@ -13,6 +13,10 @@
   padding-bottom: 32px;
 }
 
+.about-container ul {
+  list-style-type: none;
+}
+
 .about-container span {
   font-weight: bold;
 }
