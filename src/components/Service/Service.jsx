@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../Hero/Hero';
 import heroImage from '../../assets/service-hero.jpg';
+import Footer from '../../Footer/Footer.jsx';
 
 const Service = () => {
     return (
@@ -11,6 +12,8 @@ const Service = () => {
                 title='Services'
                 btnClass='hide'
             />
+
+            <Footer />
         </div>
     )
 }

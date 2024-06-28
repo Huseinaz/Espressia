@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../Hero/Hero';
 import heroImage from '../../assets/contact-hero.jpg';
+import Footer from '../../Footer/Footer.jsx';
 
 const Contact = () => {
     return (
@@ -11,6 +12,8 @@ const Contact = () => {
                 title='Contact'
                 btnClass='hide'
             />
+
+            <Footer />
         </div>
     )
 }
