@@ -3,6 +3,7 @@ import Discover from './Discover.jsx'
 import Hero from '../Hero/Hero';
 import heroImage from '../../assets/home-hero.jpeg';
 import Item from '../Item/Item.jsx';
+import Footer from '../../Footer/Footer.jsx';
 
 const Home = () => {
     return (
@@ -16,8 +17,12 @@ const Home = () => {
                 btnClass='show'
                 buttonText='Explore Now'
             />
+            
             <Discover />
+
             <Item />
+
+            <Footer />
         </div>
     )
 }
