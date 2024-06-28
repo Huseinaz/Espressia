@@ -1,0 +1,28 @@
+.about-container {
+  margin: 64px 96px;
+  color: #352412;
+  text-align: start;
+}
+
+.about-container h1 {
+  padding-bottom: 16px;
+}
+
+.about-container p, ul {
+  font-size: 18px;
+  padding-bottom: 32px;
+}
+
+.about-container li {
+  
+}
+
+.about-container span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 850px) {
+  .about-container {
+    margin: 64px 32px;
+  }
+}
