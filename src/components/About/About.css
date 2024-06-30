@@ -18,7 +18,7 @@
 }
 
 .about-container span {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 850px) {
