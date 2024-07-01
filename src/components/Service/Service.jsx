@@ -4,8 +4,10 @@ import heroImage from '../../assets/service-hero.jpg';
 import Footer from '../../Footer/Footer.jsx';
 import ServiceData from './ServiceData.jsx';
 
-import Service1 from '../../assets/Latte.jpg';
-import Service2 from '../../assets/Latte.jpg';
+import Service1 from '../../assets/service1.jpg';
+import Service2 from '../../assets/service2.jpg';
+import Service3 from '../../assets/service3.jpg';
+import Service4 from '../../assets/service4.jpg';
 
 const Service = () => {
     return (
@@ -24,38 +26,30 @@ const Service = () => {
 
                 <ServiceData
                     className='first-service'
-                    heading='Featured Coffees'
-                    text='<span>Single-Origin Delight:</span> Savor the unique flavors from coffee-growing regions around the world.<br />
-                    <span>Signature Blends:</span> Our expert roasters create perfect blends for a balanced and complex taste.<br />
-                    <span>Seasonal Specials:</span> Enjoy limited-time offerings crafted to capture the essence of each season.<br />'
+                    heading='Coffee Subscription'
+                    text='Enjoy freshly roasted coffee delivered to your doorstep every month. Customize your subscription to receive your favorite blends and discover new flavors. Our subscription service is flexible, allowing you to choose your delivery frequency and coffee preferences.'
                     img={Service1}
                 />
 
                 <ServiceData
                     className='first-service-reverse'
-                    heading='Why Choose Espressia?'
-                    text='<span>Ethically Sourced:</span> We partner with sustainable farms that prioritize fair labor practices and environmental stewardship.<br />
-                    <span>Expertly Roasted:</span> Each batch is roasted to perfection, highlighting the distinctive characteristics of every bean.<br />
-                    <span>Freshness Guaranteed:</span> Our coffee is roasted and shipped quickly to ensure maximum freshness in every cup.<br />'
+                    heading='Wholesale Supply'
+                    text='We provide high-quality coffee beans to cafes, restaurants, and businesses. Partner with us to serve exceptional coffee to your customers. Our wholesale program includes tailored roasting profiles, dedicated support, and competitive pricing to meet your business needs.'
                     img={Service2}
                 />
 
                 <ServiceData
                     className='first-service'
-                    heading='Featured Coffees'
-                    text='<span>Single-Origin Delight:</span> Savor the unique flavors from coffee-growing regions around the world.<br />
-                    <span>Signature Blends:</span> Our expert roasters create perfect blends for a balanced and complex taste.<br />
-                    <span>Seasonal Specials:</span> Enjoy limited-time offerings crafted to capture the essence of each season.<br />'
-                    img={Service1}
+                    heading='Custom Blends'
+                    text='Create your own unique coffee blend with our custom blending service. Perfect for special occasions, gifts, or personal enjoyment. Work with our master roasters to develop a blend that matches your taste preferences and brewing style.'
+                    img={Service3}
                 />
 
                 <ServiceData
                     className='first-service-reverse'
-                    heading='Why Choose Espressia?'
-                    text='<span>Ethically Sourced:</span> We partner with sustainable farms that prioritize fair labor practices and environmental stewardship.<br />
-                    <span>Expertly Roasted:</span> Each batch is roasted to perfection, highlighting the distinctive characteristics of every bean.<br />
-                    <span>Freshness Guaranteed:</span> Our coffee is roasted and shipped quickly to ensure maximum freshness in every cup.<br />'
-                    img={Service2}
+                    heading='Coffee Workshops'
+                    text='Learn the art of coffee making from our expert baristas. Join our workshops to master brewing techniques, understand coffee origins, and perfect your latte art skills. Our workshops are designed for all skill levels, from beginners to seasoned baristas.'
+                    img={Service4}
                 />
             </div>
 
